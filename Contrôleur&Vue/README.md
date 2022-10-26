@@ -12,7 +12,7 @@ Plusieurs composants permettent de fournir à l'utilisateur la ressource qui cor
 
 Les réponses encapsulent la représentation de la ressource telle que demandée par l'utilisateur. Le plus souvent, cette réponse est une « page » au format `text/html`. Dans ce cas, il faudra faire appel à un **moteur de rendu** pour construire une **vue**. Pour Symfony, il s'agit de `Twig`. Le rôle du moteur de rendu est de fusionner des squelettes de pages et des données qui lui auront été fournies par le contrôleur. 
 
-![MVC schéma](./pictures/image.png)
+![MVC schéma](./pictures/mvc.png)
 
 
 ## Notes de cours
